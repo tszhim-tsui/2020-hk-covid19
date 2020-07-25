@@ -1,5 +1,5 @@
 ---
-title: "香港過去14日新型新型肺炎確診或疑似個案"
+title: "香港過去14日新型肺炎確診或疑似個案"
 output:
   flexdashboard::flex_dashboard:
     orientation: rows
