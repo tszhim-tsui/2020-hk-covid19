@@ -1,6 +1,5 @@
 # Note:
-# all PDF files are hidden in https://www.chp.gov.hk/js/building_list_eng.js
-# I had downloaded the .JS, semi-manually extracted all names/paths of PDFs
+# all links to PDF files are hidden in https://www.chp.gov.hk/js/building_list_eng.js
 
 
 library(stringr)

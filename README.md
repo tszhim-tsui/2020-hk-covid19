@@ -15,4 +15,5 @@ https://data.gov.hk/en-data/dataset/hk-had-json1-hong-kong-administrative-bounda
 
 ### Updates
 
-2020-07-24: first draft
+2020-07-24: [first draft](https://tszhim-tsui.github.io/2020-hk-covid19)
+2020-08-04: parsed legacy PDFs and produced [time series](https://tszhim-tsui.github.io/2020-hk-covid19)
