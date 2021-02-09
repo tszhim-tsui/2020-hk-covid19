@@ -1,0 +1,86 @@
+---
+title: "香港新型肺炎確診或疑似個案"
+output:
+  flexdashboard::flex_dashboard:
+    orientation: rows
+    vertical_layout: scroll
+    theme: readable
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+```
+
+-----------------------------------------------------------------------
+
+
+
+個案數目走勢
+==========
+
+Row {.tabset data-height=550}
+----------
+
+### 14日平均每日新增個案數目
+
+```{r, echo=F}
+fig_day
+```
+
+
+### 14日平均每十萬人新增個案數目
+
+```{r, echo=F}
+fig_100k
+```
+
+
+
+Row {data-height=55}
+----------
+
+###
+
+```{r, echo=F}
+print(currenttimetext)
+```
+
+
+
+
+
+
+
+
+
+
+過去14日個案
+==========
+
+Row {.tabset data-height=550}
+----------
+
+### 個案數目
+
+```{r, echo=F}
+map_raw
+```
+
+
+
+### 每十萬人個案數目
+
+```{r, echo=F}
+map_100k
+```
+
+
+
+Row {data-height=55}
+----------
+
+###
+
+```{r, echo=F}
+print(currenttimetext)
+```
